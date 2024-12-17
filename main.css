@@ -139,3 +139,22 @@ body {
     margin: 0; 
   }
   
+
+
+
+/*****oiseaux**********/
+body {
+  margin: 0;
+  overflow: hidden;
+  background: skyblue; /* Un fond bleu pour le ciel */
+}
+
+.bird {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('asset/algarve-oiseau-removebg-preview.png') no-repeat center/contain;
+  pointer-events: none;
+  z-index: 10;
+  transform-origin: center;
+}
